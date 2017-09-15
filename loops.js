@@ -1,5 +1,5 @@
 function loopOne(){
-let time=30;
+let time=25;
 
 while (time>0) {
   console.log(time+" seconds left.");
@@ -14,14 +14,19 @@ for( sum=0;sum<powersOfTwo2;sum++)
 return sum
 }
 
-function loopThree(){
+function loopThree(symbol, number){
+let symbol;
+let number;
 
+for(symbol=0;symbol=symbol+symbol){
 
+console.log(symbol);
+  }
 }
 
 function main(){
     //Testing each function
-    loopOne(10);
+
     loopOne(25);
 
     let powersOfTwo = loopTwo(2,10);
